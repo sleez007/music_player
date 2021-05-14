@@ -16,6 +16,7 @@ class AppEntry extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      title: 'Flutter Spotify UI',
       debugShowCheckedModeBanner: false,
       theme: LightTheme.light(),
       darkTheme: DarkTheme.dark(),
