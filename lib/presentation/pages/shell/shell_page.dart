@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:music_player/infrastructure/core/data.dart';
+import 'package:music_player/presentation/pages/play_list/play_list_page.dart';
 
 import 'widget/widgets.dart';
 
@@ -11,7 +13,8 @@ class ShellPage extends StatelessWidget {
           Expanded(
             child: Row(
               children: [
-                const SideMenu()
+                const SideMenu(),
+                const Expanded(child: const PlayListPage(playList: lofihiphopPlaylist))
               ],
             )
           ),

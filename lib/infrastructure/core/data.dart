@@ -116,7 +116,7 @@ const _lofihiphopMusic = [
 const lofihiphopPlaylist = PlayList(
   id: '5-playlist',
   name: 'lofi hip hop music - beats to relax/study to',
-  imageURL: 'assets/lofigirl.jpg',
+  imageURL: 'assets/images/lofigirl.jpeg',
   description: 'A daily selection of chill beats - perfect to help you relax & study 📚',
   creator: 'Lofi Girl',
   duration: '28 min',
